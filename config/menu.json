@@ -1,0 +1,12 @@
+{
+    "menuList": [
+        {
+            "key": "onLine",
+            "label": "收听在线"
+        },
+        {
+            "key": "offLine",
+            "label": "收听本地"
+        }
+    ]
+}

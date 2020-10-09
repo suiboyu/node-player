@@ -1,0 +1,30 @@
+{
+  "name": "downloadmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/babel src --out-dir dist --source-maps --watch",
+    "start": "node bin/cli",
+    "run": "node src/index1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "inquirer": "^7.3.3",
+    "keypress": "^0.2.1",
+    "lame": "^1.2.4",
+    "mp3-duration": "^1.1.0",
+    "progress": "^2.0.3",
+    "speaker": "^0.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
